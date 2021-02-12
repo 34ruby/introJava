@@ -77,12 +77,12 @@ public class Game {
 			System.out.println("당신이 제시한 점수는 : " + mySet + " 입니다.");
 			
 			if (botSet[round-1] > mySet) {
-				System.out.println("당신은 패배하였습니다");
+				System.out.println("이번 라운드는 당신이 패배하였습니다");
 				botNum++;
 			} else if (botSet[round-1] == mySet) {
 				System.out.println("무승부입니다.");
 			} else if (botSet[round-1] < mySet) {
-				System.out.println("당신이 승리하셨습니다.");
+				System.out.println("이번 라운드는 당신이 승리하셨습니다.");
 				myNum++;
 			} 
 			round++;
