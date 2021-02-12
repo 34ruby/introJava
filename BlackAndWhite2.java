@@ -26,7 +26,7 @@ public class Game {
 				continue;
 			}
 		}
-		System.out.println(botSet[0] + " " + botSet[1] + " " + botSet[2] + " " + botSet[3] + " " + botSet[4] + " " + botSet[5] + " " + botSet[6] + " " + botSet[7] + " " + botSet[8]);
+// 		System.out.println(botSet[0] + " " + botSet[1] + " " + botSet[2] + " " + botSet[3] + " " + botSet[4] + " " + botSet[5] + " " + botSet[6] + " " + botSet[7] + " " + botSet[8]);
 		
 		int mySet = 0;
 		
